@@ -24,6 +24,7 @@ function getProfiles(json) {
 
 // Generate the markup for each profile
 function generateHTML(data) {
+  console.log(data);
   const section = document.createElement('section');
   peopleList.appendChild(section);
   section.innerHTML = `
